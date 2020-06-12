@@ -1,0 +1,21 @@
+{
+  "name": "got-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:dev": "nodemon --exec ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1",
+    "ts-node": "8.3.0",
+    "typescript": "3.8.3"
+  }
+}
